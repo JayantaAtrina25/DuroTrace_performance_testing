@@ -306,5 +306,5 @@ def generate_report(results_files):
 if __name__ == "__main__":
     # Define the list of k6 result files to process.
     # The filenames are automatically used to label the tables in the report.
-    result_files = ["k6_results.json", "k6_results_module1.json", "k6_results_module2.json"]
+    result_files = ["k6_results.json", "k6_results_module1.json", "k6_results_module2.json", "k6_results_module3.json"]
     generate_report(result_files)
